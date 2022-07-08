@@ -32,6 +32,7 @@ const Home = () => {
 
     const onChangePage = (number) => {
         dispatch(setCurrentPage(number))
+
     }
 
     const fetchPizzas = () => {
